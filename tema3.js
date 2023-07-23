@@ -72,7 +72,7 @@ function recipe(title, portions, ingredients) {
         titlu: "carte 4",
         autor: "autor 4",
         esteCitita: false,
-    }2
+    },
     {
         titlu: "carte 5",
         autor: "autor 5",
