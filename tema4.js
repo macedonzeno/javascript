@@ -21,15 +21,15 @@ let findSquare = (num) => {
   
   let letterCount = (string, litera) => {
     let counter = 0;
-    for(let i = 0 ; i < string.toLowerCase().length;i++){
-      if (string[i] === litera) {
+    for(let i = 0 ; i < string.length;i++){
+      if (string[i].toLowerCase() === litera.toLowerCase()) {
         counter++ 
       }
     }
     console.log(counter);
   }
-  
-  letterCount("is nebun ce fata am de gigolo", "a")
+
+letterCount("Am bani, femei, mașini și bag haterii în spume", "a")
   
   //Ex: 4 
   
