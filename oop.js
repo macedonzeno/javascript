@@ -7,6 +7,12 @@ class Masina {
     this.kilometraj = kilometraj;
   }
 
+//Metoda de afisare a proprietatilor (getter & "normal")
+
+// afiseazaProprietati() {
+//   return `Masina[marca=${this.marca}, model=${this.model}, culoare=${this.culoare}, kilometraj=${this.kilometraj}]`;
+//   }
+// }
   get proprietati() {
     return `Masina[marca=${this.marca}, model=${this.model}, culoare=${this.culoare}, kilometraj=${this.kilometraj}]`;
   }
@@ -36,6 +42,10 @@ function main() {
   console.log(masina1.proprietati);
   console.log(masina2.proprietati);
   console.log(masina3.proprietati);
+
+  // console.log(masina1.afiseazaProprietati());
+  // console.log(masina2.afiseazaProprietati());
+  // console.log(masina3.afiseazaProprietati());
 
   const masinaDeCurse1 = new MasinaDeCurse("Toyota", "Turbo", "Rosu", 100000);
   const masinaDeCurse2 = new MasinaDeCurse("Ford", "Rapid", "Alb", 80000);
